@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 	android:id="@+id/newconnection" 
+        	android:title="New connection" 
+        	android:menuCategory="alternative"
+        	android:icon="@android:drawable/ic_dialog_email"></item>
+     <item 	android:id="@+id/settings" 
+        	android:title="Settings" 
+        	android:menuCategory="alternative"
+        	android:icon="@android:drawable/ic_menu_manage"></item>
+     <item 	android:id="@+id/getbuddy" 
+         	android:title="Get buddies"
+         	android:icon="@android:drawable/ic_menu_more"></item>
+	 <item  android:id="@+id/closechat"
+		    android:title="Close current chat"></item>
+	 <item  android:id="@+id/sendfile"
+		    android:title="Send file to chat"></item>
+	 <item android:id="@+id/showsoftk" android:title="Show Softkey"></item>
+</menu>

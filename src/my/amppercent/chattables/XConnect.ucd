@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="XConnect" size="1332,693" id="my.amppercent.chattables" metadata="uml2-1.0" initialized="true" scrolledX="64" scrolledY="28" tag="10" key="32303037303533312D313020416D6D70657263656E74372D646661">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.7/@sourceConnections.0" name="chatAdapter" location="414,315" size="188,43" id="my.amppercent.remoteservice/chatAdapter" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.9/@sourceConnections.1" name="XRoster" location="855,450" size="165,187" id="my.amppercent.chattables/XRoster" runTimeClassModel="my.amppercent.chattables.XRoster.Status">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,127">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Status" location="996,490" size="142,125" id="my.amppercent.chattables/XRoster$Status" runTimeClassModel="entriesUpdated%,entriesRemoved%,entriesAdded%,presenceChanged%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="119,72">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="entriesAdded" id="my.amppercent.chattables/XRoster$Status#entriesAdded%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="entriesRemoved" id="my.amppercent.chattables/XRoster$Status#entriesRemoved%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="presenceChanged" id="my.amppercent.chattables/XRoster$Status#presenceChanged%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="entriesUpdated" id="my.amppercent.chattables/XRoster$Status#entriesUpdated%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.chattables/XRoster$Status@state+my.amppercent.chattables/XRoster@" source="//@children.1" target="//@children.1/@children.2/@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,177" id="my.amppercent.chattables/XRoster$Status@state+my.amppercent.chattables/XRoster@|my.amppercent.chattables/XRoster#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="state" location="10,0" id="my.amppercent.chattables/XRoster$Status@state+my.amppercent.chattables/XRoster@|my.amppercent.chattables/XRoster$Status#state" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - state" location="830,482" size="38,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="882,482" size="20,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.2 //@children.8/@sourceConnections.0" name="XConnect" location="414,424" size="319,233" id="my.amppercent.chattables/XConnect" runTimeClassModel="my.amppercent.chattables.XConnect.ChatReq,my.amppercent.chattables.XConnect.AcceptanceSubscribePacketFilter,my.amppercent.chattables.XConnect.Acceptance">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="296,173">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.2/@sourceConnections.3" name="Acceptance" location="1460,1411" size="128,107" id="my.amppercent.chattables/XConnect$Acceptance" runTimeClassModel="none%,all%,ask%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="47,54">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="all" id="my.amppercent.chattables/XConnect$Acceptance#all%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ask" id="my.amppercent.chattables/XConnect$Acceptance#ask%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="none" id="my.amppercent.chattables/XConnect$Acceptance#none%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="AcceptanceSubscribePacketFilter" size="296,30" id="my.amppercent.chattables/XConnect$AcceptanceSubscribePacketFilter" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="ChatReq" size="105,30" id="my.amppercent.chattables/XConnect$ChatReq" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.chattables/XConnect@server_connections+my.amppercent.remoteservice/chatAdapter@" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="server_connections" location="93,0" id="my.amppercent.chattables/XConnect@server_connections+my.amppercent.remoteservice/chatAdapter@|my.amppercent.chattables/XConnect#server_connections" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - server_connections" location="514,404" size="116,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="480,404" size="20,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,43" id="my.amppercent.chattables/XConnect@server_connections+my.amppercent.remoteservice/chatAdapter@|my.amppercent.remoteservice/chatAdapter#">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="connectionid" location="464,354" size="86,22" id=""/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.chattables/XConnect@conn+my.amppercent.chattables/myChat@chatList" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="conn" location="0,10" id="my.amppercent.chattables/XConnect@conn+my.amppercent.chattables/myChat@chatList|my.amppercent.chattables/XConnect#conn" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - conn" location="337,441" size="37,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="367,414" size="7,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="with" location="381,424" size="38,22" id=""/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="chatList" location="89,30" id="my.amppercent.chattables/XConnect@conn+my.amppercent.chattables/myChat@chatList|my.amppercent.chattables/myChat#chatList" multiplicityLabel="//@children.2/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + chatList" location="91,423" size="58,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="163,423" size="20,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.chattables/XRoster@mychicken+my.amppercent.chattables/XConnect@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="319,119" id="my.amppercent.chattables/XRoster@mychicken+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mychicken" location="0,93" id="my.amppercent.chattables/XRoster@mychicken+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XRoster#mychicken" multiplicityLabel="//@children.2/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mychicken" location="780,523" size="68,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="828,550" size="20,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.chattables/XConnect$Acceptance@acceptance+my.amppercent.chattables/XConnect@" source="//@children.2" target="//@children.2/@children.2/@children.0" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="309,233" id="my.amppercent.chattables/XConnect$Acceptance@acceptance+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#" attachSource="true" roleLabel="//@children.2/@sourceConnections.3/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="716,664" size="0,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="acceptance" location="0,10" id="my.amppercent.chattables/XConnect$Acceptance@acceptance+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect$Acceptance#acceptance" multiplicityLabel="//@children.2/@sourceConnections.3/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.3/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - acceptance" location="343,466" size="74,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="410,493" size="7,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.7/@sourceConnections.1" name="myChat" location="67,386" size="99,30" id="my.amppercent.chattables/myChat" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="XMPPConnection" location="615,315" size="168,43" id="org.jivesoftware.smack/XMPPConnection" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.jivesoftware.smack/XMPPConnection@xmpp+my.amppercent.chattables/XConnect@" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="xmpp" location="58,43" id="org.jivesoftware.smack/XMPPConnection@xmpp+my.amppercent.chattables/XConnect@|org.jivesoftware.smack/XMPPConnection#xmpp" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - xmpp" location="680,365" size="40,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="659,365" size="7,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="259,0" id="org.jivesoftware.smack/XMPPConnection@xmpp+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ChatManager" location="810,315" size="149,43" id="org.jivesoftware.smack/ChatManager" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.jivesoftware.smack/ChatManager@cm+my.amppercent.chattables/XConnect@" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cm" location="10,43" id="org.jivesoftware.smack/ChatManager@cm+my.amppercent.chattables/XConnect@|org.jivesoftware.smack/ChatManager#cm" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cm" location="827,365" size="26,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="793,365" size="20,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="319,10" id="org.jivesoftware.smack/ChatManager@cm+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IBindRemoteService" location="165,315" size="195,43" id="my.amppercent.project/IBindRemoteService" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/chatAdapter@chat_adapter+my.amppercent.project/IBindRemoteService@" source="//@children.6" target="//@children.0" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,21" id="my.amppercent.remoteservice/chatAdapter@chat_adapter+my.amppercent.project/IBindRemoteService@|my.amppercent.project/IBindRemoteService#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="chat_adapter" location="0,21" id="my.amppercent.remoteservice/chatAdapter@chat_adapter+my.amppercent.project/IBindRemoteService@|my.amppercent.remoteservice/chatAdapter#chat_adapter" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ chat_adapter" location="320,316" size="87,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="387,343" size="20,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Context" location="555,225" size="110,43" id="android.content/Context" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="android.content/Context@context+my.amppercent.remoteservice/chatAdapter@" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="context" location="23,43" id="android.content/Context@context+my.amppercent.remoteservice/chatAdapter@|android.content/Context#context" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - context" location="585,275" size="51,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="564,275" size="7,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,0" id="android.content/Context@context+my.amppercent.remoteservice/chatAdapter@|my.amppercent.remoteservice/chatAdapter#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="android.content/Context@ct+my.amppercent.chattables/myChat@" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ct" location="0,33" id="android.content/Context@ct+my.amppercent.chattables/myChat@|android.content/Context#ct" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ct" location="528,238" size="20,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="541,265" size="7,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" id="android.content/Context@ct+my.amppercent.chattables/myChat@|my.amppercent.chattables/myChat#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="android.content/Context@ctxt+my.amppercent.chattables/XConnect@" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ctxt" location="54,43" id="android.content/Context@ctxt+my.amppercent.chattables/XConnect@|android.content/Context#ctxt" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ctxt" location="616,275" size="30,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="595,275" size="7,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,0" id="android.content/Context@ctxt+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FileTransferManager" location="990,300" size="218,43" id="org.jivesoftware.smackx.filetransfer/FileTransferManager" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.jivesoftware.smackx.filetransfer/FileTransferManager@ftm+my.amppercent.chattables/XConnect@" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ftm" location="10,43" id="org.jivesoftware.smackx.filetransfer/FileTransferManager@ftm+my.amppercent.chattables/XConnect@|org.jivesoftware.smackx.filetransfer/FileTransferManager#ftm" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ftm" location="1007,350" size="28,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="973,350" size="20,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="319,10" id="org.jivesoftware.smackx.filetransfer/FileTransferManager@ftm+my.amppercent.chattables/XConnect@|my.amppercent.chattables/XConnect#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="XUser" location="1095,415" size="188,218" id="my.amppercent.remoteservice/XUser" runTimeClassModel="my.amppercent.remoteservice.XUser.Status">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,145">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.9/@sourceConnections.0" name="Status" size="123,143" id="my.amppercent.remoteservice/XUser$Status" runTimeClassModel="ExtendedAway%,DoNotDisturb%,Chat%,Away%,none_offline%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="100,90">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Chat" id="my.amppercent.remoteservice/XUser$Status#Chat%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ExtendedAway" id="my.amppercent.remoteservice/XUser$Status#ExtendedAway%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Away" id="my.amppercent.remoteservice/XUser$Status#Away%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DoNotDisturb" id="my.amppercent.remoteservice/XUser$Status#DoNotDisturb%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="none_offline" id="my.amppercent.remoteservice/XUser$Status#none_offline%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@" source="//@children.9" target="//@children.9/@children.2/@children.0" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,71" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@|my.amppercent.remoteservice/XUser#" attachSource="true" roleLabel="//@children.9/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1290,466" size="0,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="state" location="123,71" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@|my.amppercent.remoteservice/XUser$Status#state" multiplicityLabel="//@children.9/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.9/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - state" location="1277,558" size="38,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1277,531" size="7,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser@jid_nameview+my.amppercent.chattables/XRoster@" source="//@children.9" target="//@children.1" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="jid_nameview" location="0,126" id="my.amppercent.remoteservice/XUser@jid_nameview+my.amppercent.chattables/XRoster@|my.amppercent.remoteservice/XUser#jid_nameview" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.9/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - jid_nameview" location="1004,521" size="84,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1068,548" size="20,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,91" id="my.amppercent.remoteservice/XUser@jid_nameview+my.amppercent.chattables/XRoster@|my.amppercent.chattables/XRoster#">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="jid" location="1016,530" size="28,22" id=""/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=my.amppercent.chattables/XConnect;wireOptions=2;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

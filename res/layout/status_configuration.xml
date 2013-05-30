@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/StatusField"
+        android:layout_alignParentLeft="true"
+        android:text="@string/user_status" />
+
+    <EditText
+        android:id="@+id/StatusField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/status_label"
+        android:inputType="text"
+        android:text="" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StatusField"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/Available"
+        android:prompt="@array/chatstate" />
+
+    <CheckBox
+        android:id="@+id/Available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/spinner"
+        android:text="@string/available" />
+
+</RelativeLayout>

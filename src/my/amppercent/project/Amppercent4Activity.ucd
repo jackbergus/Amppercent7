@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Amppercent4Activity" size="1148,463" id="my.amppercent.project" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020416D6D70657263656E74372D646661">
+  <children xsi:type="editmodel:ClassEditModel" name="Amppercent4Activity" location="50,50" size="201,30" id="my.amppercent.project/Amppercent4Activity" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.project/TabFragment@unactive_fragmentlist+my.amppercent.project/Amppercent4Activity@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="179,15" id="my.amppercent.project/TabFragment@unactive_fragmentlist+my.amppercent.project/Amppercent4Activity@|my.amppercent.project/Amppercent4Activity#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="unactive_fragmentlist" location="0,15" id="my.amppercent.project/TabFragment@unactive_fragmentlist+my.amppercent.project/Amppercent4Activity@|my.amppercent.project/TabFragment#unactive_fragmentlist" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - unactive_fragmentlist" location="159,45" size="128,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="282,72" size="5,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.project/TabFragment@fragmentlist+my.amppercent.project/Amppercent4Activity@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,30" id="my.amppercent.project/TabFragment@fragmentlist+my.amppercent.project/Amppercent4Activity@|my.amppercent.project/Amppercent4Activity#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fragmentlist" location="0,55" id="my.amppercent.project/TabFragment@fragmentlist+my.amppercent.project/Amppercent4Activity@|my.amppercent.project/TabFragment#fragmentlist" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - fragmentlist" location="211,112" size="76,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="282,85" size="5,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1 //@children.1/@children.2/@children.0/@sourceConnections.0 //@children.1/@children.2/@children.1/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.3/@sourceConnections.2" name="TabFragment" location="294,50" size="209,124" id="my.amppercent.project/TabFragment" runTimeClassModel="my.amppercent.project.TabFragment.ReadMessageClass,my.amppercent.project.TabFragment.Connector">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="186,64">
+      <children xsi:type="editmodel:ClassEditModel" name="Connector" size="118,30" id="my.amppercent.project/TabFragment$Connector" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.project/TabFragment$Connector@mconn+my.amppercent.project/TabFragment@this$0" source="//@children.1/@children.2/@children.0" target="//@children.1" targetEnd="//@children.1/@children.2/@children.0/@sourceConnections.0/@children.2" label="//@children.1/@children.2/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.2/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="mconn" location="118,15" id="my.amppercent.project/TabFragment$Connector@mconn+my.amppercent.project/TabFragment@this$0|my.amppercent.project/TabFragment$Connector#mconn" attachSource="true" multiplicityLabel="//@children.1/@children.2/@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@children.2/@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+            <children xsi:type="editmodel:LabelEditModel" name=" - mconn" location="497,124" size="47,13" anchorKind="FirstPart"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1" location="497,97" size="7,13" anchorKind="FirstPart"/>
+          </children>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="this$0" location="209,15" id="my.amppercent.project/TabFragment$Connector@mconn+my.amppercent.project/TabFragment@this$0|my.amppercent.project/TabFragment#this$0"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="ReadMessageClass" size="186,30" id="my.amppercent.project/TabFragment$ReadMessageClass" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.project/TabFragment$ReadMessageClass@readmessage+my.amppercent.project/TabFragment@this$0" source="//@children.1/@children.2/@children.1" target="//@children.1" targetEnd="//@children.1/@children.2/@children.1/@sourceConnections.0/@children.2" label="//@children.1/@children.2/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.2/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="readmessage" location="186,15" id="my.amppercent.project/TabFragment$ReadMessageClass@readmessage+my.amppercent.project/TabFragment@this$0|my.amppercent.project/TabFragment$ReadMessageClass#readmessage" attachSource="true" multiplicityLabel="//@children.1/@children.2/@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@children.2/@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+            <children xsi:type="editmodel:LabelEditModel" name=" - readmessage" location="497,156" size="85,13" anchorKind="FirstPart"/>
+            <children xsi:type="editmodel:LabelEditModel" name="0..1" location="497,129" size="20,13" anchorKind="FirstPart"/>
+          </children>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="this$0" location="209,15" id="my.amppercent.project/TabFragment$ReadMessageClass@readmessage+my.amppercent.project/TabFragment@this$0|my.amppercent.project/TabFragment#this$0"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.3/@sourceConnections.1" name="XUser" location="270,225" size="188,218" id="my.amppercent.remoteservice/XUser" runTimeClassModel="my.amppercent.remoteservice.XUser.Status">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,145">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Status" size="123,143" id="my.amppercent.remoteservice/XUser$Status" runTimeClassModel="ExtendedAway%,DoNotDisturb%,Chat%,Away%,none_offline%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="100,90">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="none_offline" id="my.amppercent.remoteservice/XUser$Status#none_offline%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ExtendedAway" id="my.amppercent.remoteservice/XUser$Status#ExtendedAway%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DoNotDisturb" id="my.amppercent.remoteservice/XUser$Status#DoNotDisturb%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Chat" id="my.amppercent.remoteservice/XUser$Status#Chat%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Away" id="my.amppercent.remoteservice/XUser$Status#Away%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@" source="//@children.2" target="//@children.2/@children.2/@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,71" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@|my.amppercent.remoteservice/XUser#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="state" location="123,71" id="my.amppercent.remoteservice/XUser$Status@state+my.amppercent.remoteservice/XUser@|my.amppercent.remoteservice/XUser$Status#state" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - state" location="452,368" size="38,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="452,341" size="7,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser@utenti+my.amppercent.project/TabFragment@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="utenti" location="105,0" id="my.amppercent.remoteservice/XUser@utenti+my.amppercent.project/TabFragment@|my.amppercent.remoteservice/XUser#utenti" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - utenti" location="382,205" size="42,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="363,205" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,124" id="my.amppercent.remoteservice/XUser@utenti+my.amppercent.project/TabFragment@|my.amppercent.project/TabFragment#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IFMessage" location="780,150" size="188,43" id="my.amppercent.remoteservice/IFMessage" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser@mittente+my.amppercent.remoteservice/IFMessage@" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,43" id="my.amppercent.remoteservice/XUser@mittente+my.amppercent.remoteservice/IFMessage@|my.amppercent.remoteservice/IFMessage#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mittente" location="188,10" id="my.amppercent.remoteservice/XUser@mittente+my.amppercent.remoteservice/IFMessage@|my.amppercent.remoteservice/XUser#mittente" multiplicityLabel="//@children.3/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mittente" location="465,242" size="56,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="465,215" size="7,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/XUser@destinat+my.amppercent.remoteservice/IFMessage@" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,38" id="my.amppercent.remoteservice/XUser@destinat+my.amppercent.remoteservice/IFMessage@|my.amppercent.remoteservice/IFMessage#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="destinat" location="121,0" id="my.amppercent.remoteservice/XUser@destinat+my.amppercent.remoteservice/IFMessage@|my.amppercent.remoteservice/XUser#destinat" multiplicityLabel="//@children.3/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - destinat" location="329,205" size="55,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="398,205" size="20,13" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="my.amppercent.remoteservice/IFMessage@im+my.amppercent.project/TabFragment@" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="im" location="0,11" id="my.amppercent.remoteservice/IFMessage@im+my.amppercent.project/TabFragment@|my.amppercent.remoteservice/IFMessage#im" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - im" location="750,141" size="23,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="768,168" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="209,111" id="my.amppercent.remoteservice/IFMessage@im+my.amppercent.project/TabFragment@|my.amppercent.project/TabFragment#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=my.amppercent.project/Amppercent4Activity;wireOptions=2;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

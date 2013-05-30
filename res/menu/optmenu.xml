@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 	android:id="@+id/newconnection" 
+        	android:title="New connection" 
+        	android:menuCategory="alternative"
+        	android:icon="@android:drawable/ic_dialog_email"></item>
+     <item 	android:id="@+id/getconnections" 
+         	android:title="Get connections"
+         	android:icon="@android:drawable/ic_menu_more"></item>
+     <item android:id="@+id/removeconnection" android:title="Remove Connection"></item>
+     <item android:id="@+id/change_status_user" android:title="Change Connection Status"></item>
+
+</menu>

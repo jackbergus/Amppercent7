@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chatstate">
+        <item >Away</item>
+        <item >Chat</item>
+        <item >DoNotDisturb</item>
+        <item >ExtendedAway</item>
+    </string-array>
+    
+</resources>

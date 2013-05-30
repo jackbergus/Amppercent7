@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.amppercent.project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="12" />
+    <uses-permission
+    android:name="android.permission.INTERNET" />
+    <uses-permission
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    
+     
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Amppercent4Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity 
+            android:name="my.amppercent.chatrequest.SelectConnActivity"
+           ></activity>
+         <activity 
+            android:name="my.amppercent.chatrequest.connActivity"
+             ></activity>
+        <activity 
+            android:name="my.amppercent.chatrequest.serverActivity"
+            ></activity>
+        <service android:name="IBindRemoteService" android:label="@string/service_name">
+            <intent-filter >
+                <action android:name="my.amppercent.remoteservice.IBinding"/>
+            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </service>
+        <activity android:name=".TextEntryActivity"></activity>
+        <activity android:name=".DownloadManager"></activity>
+        <activity android:name="PrefActive">
+        </activity>
+        <activity android:name="LaunchMe"></activity>
+        <activity android:name="my.amppercent.chattables.UserStatus"></activity>
+        <activity android:name="my.amppercent.chatrequest.AvailabilitySettings"></activity>
+
+    
+    </application>
+   
+    
+
+</manifest>

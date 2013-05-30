@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/Download_button_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+
+    <Button
+        android:id="@+id/Decline_button_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decline" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/stat_sys_download_done"
+            android:layout_alignParentLeft="true" />
+        
+         <TextView
+                android:id="@+id/To_or_From_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username from or to"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_toRightOf="@+id/imageView2" />
+        
+         <TextView
+                android:id="@+id/File_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:editable="false"
+                android:text="mylongfile.name"
+                android:layout_below="@+id/To_or_From_text"
+                android:layout_toRightOf="@+id/imageView2"  >
+
+
+            </TextView>
+         
+    </RelativeLayout>
+ 
+</LinearLayout>

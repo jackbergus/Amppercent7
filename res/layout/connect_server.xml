@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Questo XML visualizza la schermata di connessione -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/Username"
+        android:layout_alignBottom="@+id/Password"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/username_label"
+        android:inputType="text"
+         >
+
+        <requestFocus />
+    </EditText>
+         
+        <TextView
+        android:id="@+id/password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/Password"
+        android:layout_below="@+id/username_label"
+        android:text="@string/string_password" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/password_label"
+        android:layout_alignLeft="@+id/Username"
+        android:layout_below="@+id/Username"
+        android:inputType="textVisiblePassword"
+         />
+    
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/Status"
+        android:layout_below="@+id/password_label"
+        android:text="@string/user_status" />
+    
+    <EditText
+        android:id="@+id/Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Password"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_below="@+id/Password"
+        android:text="@string/example_status"
+        android:inputType="text"
+         />
+    
+     <CheckBox
+         android:id="@+id/setAvailable"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/Status"
+         android:text="@string/string_visibility_settings" />
+
+    <TextView
+        android:id="@+id/server__label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/setAvailable"
+        android:text="@string/server"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/host_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/server__label"
+        android:layout_alignBaseline="@+id/Host"
+        android:text="@string/host" />
+
+    <EditText
+        android:id="@+id/Host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/server__label"
+        android:layout_alignLeft="@+id/Status"
+        android:text="@string/example_server"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Port_no"
+        android:layout_alignBottom="@+id/Port_no"
+        android:layout_alignParentLeft="true"
+        android:text="@string/portno" />
+
+    <EditText
+        android:id="@+id/Port_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Host"
+        android:layout_below="@+id/Host"
+        android:text="@string/default_port" 
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Service"
+        android:layout_alignBottom="@+id/Service"
+        android:layout_alignParentLeft="true"
+        android:text="@string/service" />
+    
+     <EditText
+        android:id="@+id/Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Port_no"
+        android:layout_below="@+id/Port_no"
+        android:text="@string/example_service"
+        android:inputType="text" 
+        />
+
+     <CheckBox
+         android:id="@+id/setSASL"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:checked="true"
+         android:layout_below="@+id/Service"
+         android:text="@string/doSasl" />
+
+     <Button
+         android:id="@+id/newConnect_start"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/setSASL"
+         android:text="@string/doConnect" />
+
+
+    
+</RelativeLayout>
+</ScrollView>

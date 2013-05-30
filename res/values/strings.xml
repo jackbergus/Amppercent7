@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amppercent v.5</string>
+    <string name="service_name">Amppercent Service</string>
+    
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="user_status">Status:</string>
+    <string name="example_status">I am well, thanks</string>
+    <string name="string_visibility_settings">See as available on-line</string>
+    <string name="host">Host:</string>
+    <string name="server">Server:</string>
+    <string name="portno">Port:</string>
+    <string name="default_port">5222</string>
+    <string name="example_server">your.server.name</string>
+    <string name="doSasl">Set SASL connection</string>
+    <string name="doConnect">Connect</string>
+    <string name="example_service">usernameafter@</string>
+    <string name="service">Service:</string>
+    <string name="missing">Missing Image/Text</string>
+    <string name="example_email">dont@email.me</string>
+    <string name="available">Available  </string>
+    <string name="send">Send</string>
+    
+</resources>

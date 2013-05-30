@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+   <!--   <LinearLayout  android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        >
+-->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@android:drawable/star_big_on"
+            android:contentDescription="@string/missing" />
+        
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Username_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/Body_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                 android:text="@string/missing" >
+
+
+            </TextView>
+        
+             </LinearLayout>
+
+<!--     </LinearLayout>
+  -->
+</LinearLayout>
